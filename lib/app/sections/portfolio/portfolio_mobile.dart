@@ -38,6 +38,7 @@ class PortfolioMobileTab extends StatelessWidget {
                 .toList(),
           ),
           Space.y(3.w)!,
+          const SizedBox(height: 10,),
           OutlinedButton(
             onPressed: () => openURL(gitHub),
             child: const Padding(
